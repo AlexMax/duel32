@@ -1,0 +1,60 @@
+// ZDaemon Old-School enhanced mode mod
+// by Stealth
+// Version 1.00
+
+/*
+ * Here we replace all ZDoom added decals with an empty one, leaving only
+ * the blood splats that existed in Doom.
+ */
+
+/***** Null decal *****/
+
+decal Null
+{
+
+}
+
+/***** Blood Decals ********************************************************/
+/*
+ * Blood splats just stick to the walls.
+ * Blood smears crawl down walls a bit like in Blood.
+ *
+ * These do not need generators; the engine will create them automatically
+ * when something bleeds. In the future, the shade color will be ignored,
+ * and the actor's blood color will be used instead.
+ */
+
+decalgroup BloodSplat
+{
+	Null 1
+}
+
+decalgroup BloodSmear
+{
+	Null 1
+}
+
+/***** Generators **********************************************************/
+
+generator Pistol				Null
+generator Chainsaw				Null
+generator Shotgun				Null
+generator SuperShotgun			Null
+generator Chaingun				Null
+
+generator PlasmaBall			Null
+generator Rocket				Null
+generator BFGBall				Null
+
+generator ZombieMan				Null
+generator ShotgunGuy			Null
+generator ChaingunGuy			Null
+generator WolfensteinSS			Null
+generator SpiderMastermind		Null
+
+generator ArachnotronPlasma		Null
+generator BaronBall				Null
+generator CacodemonBall			Null
+generator DoomImpBall			Null
+generator FatShot				Null
+generator RevenantTracer		Null

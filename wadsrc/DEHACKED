@@ -1,0 +1,44 @@
+Patch File for DeHackEd v3.0
+
+# ZDaemon Old-School enhanced mode mod
+# by Stealth
+# Version 1.00
+
+# General version information
+Doom version = 21
+Patch format = 6
+
+# Even though the original contained information for
+# translucency, doom2.exe did not use this so we
+# force translucency off for any items used in DM.
+
+Thing 35 (Plasma Bullet)
+Translucency = 65535
+
+Thing 36 (BFG Shot)
+Translucency = 65535
+
+Thing 38 (Bullet Puff)
+Translucency = 65535
+
+Thing 40 (Teleport Flash)
+Translucency = 65535
+
+Thing 41 (Item Respawn Fog)
+Translucency = 65535
+
+Thing 56 (Soul Sphere)
+Translucency = 65535
+
+Thing 57 (Invulnerability)
+Translucency = 65535
+
+Thing 59 (Blur Sphere)
+Translucency = 65535
+
+Thing 63 (Mega Sphere)
+Translucency = 65535
+
+Misc 0
+Rocket Explosion Style = 64
+Rocket Explosion Alpha = 1.0

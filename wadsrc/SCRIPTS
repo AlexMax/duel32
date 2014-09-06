@@ -1,0 +1,28 @@
+#library "global"
+#include "zcommon.acs"
+
+int returning = FALSE;
+
+SCRIPT 1 ENTER {
+	if (getlevelinfo(LEVELINFO_CLUSTERNUM) != 99) {
+		if (PlayerCount() == 1 && returning == FALSE) {
+			delay(35*1); 
+			hudmessage (l:"DUEL32_SOLO";
+				HUDMSG_TYPEON, 1, 0, 1.5, 0.75, 2.25, 0.0625, 0.75);
+		}
+	}
+}
+
+SCRIPT 2 (int intPlayerNumber) DISCONNECT {
+	if (getlevelinfo(LEVELINFO_CLUSTERNUM) != 99) {
+		if (PlayerCount() < 1 && returning == FALSE) {
+			returning = TRUE;
+			for (int intCount = 5;intCount != 0;intCount--) {
+				hudmessagebold(l:"DUEL32_COUNTDOWN",d:intCount,s:"\cd . . .";
+					HUDMSG_FADEOUT, 1, 0, 1.5, 0.65, 0.25, 0.75);
+				delay(35);
+			}
+			consolecommand("map START");
+		}
+	}
+}

@@ -1,0 +1,63 @@
+[en enu default] /* Thanks me! */
+DUEL32_START = "\cfWelcome to \cgDuel32\n\n\cdSelect the map you want to play by touching its picture. If you are alone, you will go directly to the map. If another player is also selecting, you must both agree on the same map.\n\n\cdIf you change your mind, you can return to this hub by spectating. All active players must spectate to return here.\n\n\cfHave fun!";
+DUEL32_SOLO = "\cfWelcome to \cgDuel32\n\n\cdRemember, you can return to the hub by spectating.";
+DUEL32_COUNTDOWN = "\cdReturning to map selection in \cf";
+
+/* Simplified Obituaries */
+OB_MPFIST = "\cc%k \cf> \coFist \cf> \cc%o";
+OB_MPCHAINSAW = "\cc%k \cf> \caChainsaw \cf> \cc%o";
+OB_MPPISTOL = "\cc%k \cf> \cpPistol \cf> \cc%o";
+OB_MPSHOTGUN = "\cc%k \cf> \ceShotgun \cf> \cc%o";
+OB_MPSSHOTGUN = "\cc%k \cf> \cbSuperShotgun \cf> \cc%o";
+OB_MPCHAINGUN = "\cc%k \cf> \cuChaingun \cf> \cc%o";
+OB_MPROCKET = "\cc%k \cf> \ckRocket \cf> \cc%o";
+OB_MPPLASMARIFLE = "\cc%k \cf> \cnPlasma \cf> \cc%o";
+OB_MPBFG_BOOM = "\cc%k \cf> \cdBFG Ball \cf> \cc%o";
+OB_MPBFG_SPLASH = "\cc%k \cf> \cdBFG Tracer \cf> \cc%o";
+OB_MPTELEFRAG = "\cc%k \cf> \cgTelefrag \cf> \cc%o";
+OB_SUICIDE = "\crSuicide \cf> \cc%o";
+OB_FALLING = "\crGravity \cf> \cc%o";
+OB_CRUSH = "\crCeiling \cf> \cc%o";
+OB_EXIT = "\crExit \cf> \cc%o";
+OB_WATER = "\chWater \cf> \cc%o";
+OB_SLIME = "\cqSlime \cf> \cc%o";
+OB_LAVA = "\ciLava \cf> \cc%o";
+OB_BARREL = "\cqBarrel \cf> \cc%o";
+OB_SPLASH = "\crSplash \cf> \cc%o";
+OB_R_SPLASH = "\crRocket Splash \cf> \cc%o";
+OB_ROCKET = "\crRocket \cf> \cc%o";
+OB_KILLEDSELF = "\crSuicide \cf> \cc%o";
+OB_DEFAULT = "\crDeath \cf> \cc%o";
+
+[esm esn esp] /* Thanks Puhax! */
+DUEL32_START = "\cfBienvenido a \cgDuel32\n\n\cdSelecciona el mapa que quieras tocando su Imagen. Si estas solo, iras al mapa directamente. Si otro jugador esta seleccionando, Los dos deben elegir el mismo mapa.\n\n\cdSi cambian su opinion, pueden volver a la seleccion de mapas al unirse a los espectadores. Todos los jugadores deben hacer eso para volver.\n\n\cfDiviertanse!";
+DUEL32_SOLO = "\cfBienvenido a \cgDuel32\n\n\cdRecuerda, Pueden volver a la seleccion de mapa al unirse a los espectadores.";
+DUEL32_COUNTDOWN = "\cdRegresando a la seleccion de mapa en \cf";
+
+[fr] /* Thanks Gez and _DaRk_! */
+DUEL32_START = "\cfBienvenue au \cgDuel32\n\n\cdChoisissez le niveau auquel vous voulez jouer en touchant son image. S'il n'y a que vous dans le hall, vous vous y rendrez directement. Si un autre joueur vous accompagne, vous devez vous mettre d'accord pour le choix du niveau.\n\n\cdSi vous changez d'avis, vous pouvez revenir au hall en devenant spectateur. Tous les joueurs actifs doivent devenir spectateurs pour retourner ici.\cf\n\nAmusez-vous bien!";
+DUEL32_SOLO = "\cfBienvenue au \cgDuel32\n\n\cdSouvenez-vous que vous pouvez retourner au hall en devenant spectateur.";
+DUEL32_COUNTDOWN = "\cdRetour au niveau choisi dans \cf";
+
+[ptg] /* Thanks Guigui */
+DUEL32_START = "\cfBem-vindo a \cgDuel32\n\n\cdEscolha o seu mapa e toque na figure dele. Se voce estiver sozinho, voce vai diretamente para o mapa. Se outro jogador tambem estiver selecionando, os dois tem que concordar no mesmo mapa.\n\n\cdSe voce mudar de ideia, podera voltar ao mapa principal se ficar de espectador. Para isso acontecer, todos os jogadores tem que ficar de espectador.\n\n\cfDivirta-se!";
+DUEL32_SOLO = "\cfBem-vindo a \cgDuel32\n\n\cdLembre-se que podera voltar ao mapa principal se ficar de espectador.";
+DUEL32_COUNTDOWN = "\cdRetornando a selecao de mapas em \cf";
+
+[fin] /* Thanks arezey */
+DUEL32_START = "\cfTervetuloa \cgDuel32:een\n\n\cdValitse mappi jota haluat pelata koskettamalla sen kuvaa. Jos olet yksin, sirryt suoraan mappiin. Jos toinen pelaaja on mukana valitsemassa, kummankin on valittava sama mappi.\n\n\cdJos muutat mielesi, siirry katsomoon niin palaat aloituspaikkaan. Kaikkien aktiivisten pelaajien tulee tulla katsomoon palatakseen aloituspaikkaan.\n\n\cfPelin iloa!";
+DUEL32_SOLO = "\cfTervetuloa \cgDuel32:een\n\n\cdMuista, voit palata hubiin - siirry katsomoon palataksesi.";
+DUEL32_COUNTDOWN = "\cdPalataan karttavalikkoon: \cf";
+
+[hun] /* Thanks Propane */
+DUEL32_START = "\cfUdvozlet a \cgDuel32-ban\n\n\cdValaszd ki azt a palyat ahol jatszani szeretnel ugy, hogy megbokod a kepet. Ha egyedul vagy, egybol a palyara kerulsz. Ha egy masik jatekos is valaszt, meg kell hogy egyezzetek egy kozos palyan.\n\n\cdHa meggondoltad magad, visszakerulhetsz a palyavalasztohoz ugy, hogy atvaltassz megfigyelo uzemmodba (spectate). Minden aktiv jatekosnak meg kell ezt tennie, hogy ez megtortenjen.\n\n\cfJo szorakozast!";
+DUEL32_SOLO = "\cfUdvozlet a \cgDuel32-ban\n\n\cdNe felejtsd, visszaterhetsz a palyavalasztashoz megfigyelo uzemmodban.";
+
+[csy] /* Thanks Jireky */
+DUEL32_START = "\cfVitejte v \cgDuel32\n\n\cdVyberte si mapu, kterou chcete hrat tim, ze se dotknete jejiho obrazu. Jestli jste sam(a), prenese Vas to primo do te mapy. Pokud je tu jeste jiny hrac, ktery voli, musite se oba dohodnout na stejne mape.\n\n\cdPokud zmenite nazor, muzete se vratit zpet tim, ze se stanete pozorovateli (spectators). Vsichni aktivni hraci se musi stat pozorovateli, aby se vratili sem.\n\n\cfDobre se bavte!";
+DUEL32_SOLO = "\cfVitejte v \cgDuel32\n\n\cdNezapominejte, ze se muzete vratit na vyber map tim, ze se stanete pozorovateli (spectators).";
+
+[rus] /* Thanks gvozdevik */
+DUEL32_START = "\cfDobro Poshalovat v \cgDuel32\n\n\cdViberi kartu, na kotoroi ti hochesh igrat, podoida k ee kartinke.\n\n\cdEsli igrokov bolshe net, to ti avtomoticheski pereneseshsa na kartu. Esli igrokov dvoe, to vi oba dolshni vibrat obshuu kartu.\n\n\cdEsli peredumaesh, moshesh vernutsa v eto mesto, pereida v reshim spektatora. Odnako dlya etogo vse igroki dolshi spekturovat.\n\n\cfUdachi!";
+DUEL32_SOLO = "\cfDobro Poshalovat v \cgDuel32\n\n\cdPomni, chto ti moshesh vernutsa v mesto vibora, pereida v reshim spektatora.";
+DUEL32_COUNTDOWN = "\cdVozvrashenie k viboru karti cherez \cf";

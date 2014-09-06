@@ -1,0 +1,320 @@
+clearepisodes
+episode START {
+	name = "DUEL32"
+}
+
+map START "WELCOME TO DUEL32" {
+	cluster = 99
+	islobby
+	levelnum = 0
+	music = "D_M32"
+	next = "START"
+	nointermission
+	sky1 = "32BLACK", 0
+}
+
+map BOO "BOO" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 1
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map BRIT10M7 "BRIT10 MAP07" {
+	exitpic = "INTER_B0"
+	intermusic = "D_B0INT"
+	levelnum = 2
+	music = "D_B007"
+	next = "START"
+	sky1 = "B0_SKY1", 0.0
+}
+
+map CLASSM1 "CLASS219 MAP01" {
+	exitpic = "INTERPIC"
+	intermusic = "D_CLINT"
+	levelnum = 3
+	music = "D_CL01"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map COLDEVM2 "COLL_N_DEVI_07_1 MAP02" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 4
+	music = "D_STALKS"
+	next = "START"
+	sky1 = "CD_SKY1", 0.0
+}
+
+map MAP01 "DOOM2 MAP01" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 5
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map DWGO5M1 "DWANGO5 MAP01" {
+	exitpic = "INTER_D5"
+	intermusic = "D_D5INT"
+	levelnum = 6
+	music = "D_D501"
+	next = "START"
+	sky1 = "D5_SKY1", 0.0
+}
+
+map DWGO5M7 "DWANGO5 MAP07" {
+	exitpic = "INTER_D5"
+	intermusic = "D_D5INT"
+	levelnum = 7
+	music = "D_D507"
+	next = "START"
+	sky1 = "D5_SKY1", 0.0
+}
+
+map DWEL2M2 "DWELLER2 MAP02" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 8
+	music = "D_STALKS"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map DWEL2M11 "DWELLER2 MAP11" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 9
+	music = "D_STLKS2"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map EON1FM5 "EONDM1F MAP05" {
+	exitpic = "INTER_EN"
+	intermusic = "D_ENINT"
+	levelnum = 10
+	music = "D_EN05"
+	next = "START"
+	sky1 = "EN_SKY2", 0.0
+}
+
+map EON1FM14 "EONDM1F MAP14" {
+	exitpic = "INTER_EN"
+	intermusic = "D_ENINT"
+	levelnum = 11
+	music = "D_EN14"
+	next = "START"
+	sky1 = "EN_SKY2", 0.0
+}
+
+map EXECM3 "EXEC MAP03" {
+	exitpic = "INTER_EC"
+	intermusic = "D_ECINT"
+	levelnum = 12
+	music = "D_EC03"
+	next = "START"
+	sky1 = "EC_SKY1", 0.0
+}
+
+map EXODUS11 "EXODUS1ON1" {
+	exitpic = "INTER_E1"
+	intermusic = "D_DM2INT"
+	levelnum = 13
+	music = "D_E101"
+	next = "START"
+	sky1 = "E1_SKY1", 0.0
+}
+
+map EXPOSED "EXPOSED" {
+	exitpic = "INTER_EX"
+	intermusic = "D_EXINT"
+	levelnum = 14
+	music = "D_EX01"
+	next = "START"
+	sky1 = "EX_SKY1", 0.0
+}
+
+map EYEDEA "EYEDEA" {
+	exitpic = "INTER_EY"
+	intermusic = "D_EYINT"
+	levelnum = 15
+	music = "D_EY01"
+	next = "START"
+	sky1 = "EY_SKY1", 0.0
+}
+
+map FOXTROT "FOXTROT" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 16
+	music = "D_FX01"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map FULOSER "FULOSER" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 17
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map GWARM16 "GREENWAR MAP16" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 18
+	music = "D_DEAD2"
+	next = "START"
+	sky1 = "SKY2", 0.0
+}
+
+map GWARM20 "GREENWAR MAP20" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 19
+	music = "D_MESSAG"
+	next = "START"
+	sky1 = "SKY2", 0.0
+}
+
+map GWARM24 "GREENWAR MAP24" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 20
+	music = "D_THEDA3"
+	next = "START"
+	sky1 = "SKY3", 0.0
+}
+
+map JUDAS23_ "JUDAS23_" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 21
+	music = "D_AMPIE"
+	next = "START"
+	sky1 = "SKY3", 0.0
+}
+
+map KING1 "KING1" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 22
+	music = "D_K101"
+	next = "START"
+	sky1 = "K1_SKY1", 0.0
+}
+
+map LAZ1JM4 "LAZARUS1J MAP04" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 23
+	music = "D_LZ04"
+	next = "START"
+	sky1 = "LZ_SKY2", 0.0
+}
+
+map LAZ1JM16 "LAZARUS1J MAP16" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 24
+	music = "D_LZ16"
+	next = "START"
+	sky1 = "LZ_MSKY", 0.0
+}
+
+map MOO2D "MOO2D" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 25
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map OBLIVX "OBLIVX" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 26
+	music = "D_OX01"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map POBLA8 "POBLA8" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 27
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map SIPOOMA "SIPOOMA" {
+	exitpic = "INTER_SI"
+	intermusic = "D_SIINT"
+	levelnum = 28
+	music = "D_SI01"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map SSL2 "SSL2" {
+	exitpic = "INTERPIC"
+	intermusic = "D_SLINT"
+	levelnum = 29
+	music = "D_SL01"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map STYX01M1 "STYXDM01 MAP01" {
+	exitpic = "INTER_SX"
+	intermusic = "D_DM2INT"
+	levelnum = 30
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SX_SKY1", 0.0
+}
+
+map UROBUROS "UROBUROS" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 31
+	music = "D_UR01"
+	next = "START"
+	sky1 = "UR_SKY1", 0.0
+}
+
+map XENOS9M4 "XENOSX9 MAP04" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 32
+	music = "D_BETWEE"
+	next = "START"
+	sky1 = "XE_SKY1", 0.0
+}
+
+map SHOOT "SHOOT" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 33
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
+map BFGD5M1 "BFGD5M1" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 34
+	music = "D_BD01"
+	next = "START"
+	sky1 = "BD_SKY1", 0.0
+}
