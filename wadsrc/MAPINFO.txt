@@ -184,15 +184,6 @@ map LAZ1JM4 "LAZARUS1J MAP04" {
 	sky1 = "LZ_SKY2", 0.0
 }
 
-map LAZ1JM16 "LAZARUS1J MAP16" {
-	exitpic = "INTERPIC"
-	intermusic = "D_DM2INT"
-	levelnum = 24
-	music = "D_LZ16"
-	next = "START"
-	sky1 = "LZ_MSKY", 0.0
-}
-
 map MOO2D "MOO2D" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
