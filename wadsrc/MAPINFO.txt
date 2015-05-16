@@ -40,15 +40,6 @@ map CLASSM1 "CLASS219 MAP01" {
 	sky1 = "SKY1", 0.0
 }
 
-map COLDEVM2 "COLL_N_DEVI_07_1 MAP02" {
-	exitpic = "INTERPIC"
-	intermusic = "D_DM2INT"
-	levelnum = 4
-	music = "D_STALKS"
-	next = "START"
-	sky1 = "CD_SKY1", 0.0
-}
-
 map MAP01 "DOOM2 MAP01" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
