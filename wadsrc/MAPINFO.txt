@@ -67,15 +67,6 @@ map DWGO5M7 "DWANGO5 MAP07" {
 	sky1 = "D5_SKY1", 0.0
 }
 
-map DWEL2M2 "DWELLER2 MAP02" {
-	exitpic = "INTERPIC"
-	intermusic = "D_DM2INT"
-	levelnum = 8
-	music = "D_STALKS"
-	next = "START"
-	sky1 = "SKY1", 0.0
-}
-
 map DWEL2M11 "DWELLER2 MAP11" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
