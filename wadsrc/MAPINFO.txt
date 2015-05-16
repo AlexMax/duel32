@@ -85,15 +85,6 @@ map EON1FM5 "EONDM1F MAP05" {
 	sky1 = "EN_SKY2", 0.0
 }
 
-map EXECM3 "EXEC MAP03" {
-	exitpic = "INTER_EC"
-	intermusic = "D_ECINT"
-	levelnum = 12
-	music = "D_EC03"
-	next = "START"
-	sky1 = "EC_SKY1", 0.0
-}
-
 map EXODUS11 "EXODUS1ON1" {
 	exitpic = "INTER_E1"
 	intermusic = "D_DM2INT"
