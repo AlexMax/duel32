@@ -31,6 +31,15 @@ map BRIT10M7 "BRIT10 MAP07" {
 	sky1 = "B0_SKY1", 0.0
 }
 
+map CHILL3M7 "CHILL3 MAP07" {
+	exitpic = "INTER_C3"
+	intermusic = "D_C3INT"
+	levelnum = 2
+	music = "D_C307"
+	next = "START"
+	sky1 = "C3_SKY1", 0.0
+}
+
 map CLASSM1 "CLASS219 MAP01" {
 	exitpic = "INTERPIC"
 	intermusic = "D_CLINT"
