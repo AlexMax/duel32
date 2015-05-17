@@ -1,2 +1,4 @@
 *.pk3
 /build/
+*.wad.backup*
+*.dbs
