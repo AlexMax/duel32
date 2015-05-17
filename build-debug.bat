@@ -12,6 +12,5 @@ IF errorlevel 1 (
 	PAUSE
 	exit /b 1
 )
-FOR /R %%f IN (*.png) DO ..\bin\pngout.exe "%%f"
-..\bin\kzip.exe /r ..\duel32%RELEASE%.pk3 *
+..\bin\zip.exe -r ..\duel32%RELEASE%-debug.pk3 .
 CD ..
