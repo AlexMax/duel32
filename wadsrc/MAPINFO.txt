@@ -157,6 +157,15 @@ map GWARM24 "GREENWAR MAP24" {
 	sky1 = "SKY3", 0.0
 }
 
+map GEO_DUEL "GEOGRAPHY_DUEL" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 20
+	music = "D_GD01"
+	next = "START"
+	sky1 = "SKY1", 0.0
+}
+
 map JUDAS23_ "JUDAS23_" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
