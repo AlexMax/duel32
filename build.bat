@@ -4,7 +4,7 @@ SET RELEASE=f
 
 CD %~dp0
 MKDIR build
-XCOPY wadsrc build /s /y
+XCOPY /s /y /exclude:exclude.txt wadsrc build
 CD build
 MKDIR acs
 ..\bin\acc.exe scripts\GLOBAL.acs acs\GLOBAL.o
