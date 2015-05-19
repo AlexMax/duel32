@@ -2,6 +2,10 @@ switch doom 3 ADEL_Z50 on pic ADEL_Z51 tics 0
 
 switch doom 3 BDEL_Z50 on pic BDEL_Z51 tics 0
 
+switch doom 1 BR1BROWN on pic BR2BROWN tics 0
+switch doom 1 BR1DIRT on pic BR2DIRT tics 0
+switch doom 3 BR1MET2 on pic BR2MET2 tics 0
+
 switch doom 1 EX1DIRT on pic EX2DIRT tics 0
 
 texture 32FGRAY1

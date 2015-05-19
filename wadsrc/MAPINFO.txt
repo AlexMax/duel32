@@ -31,10 +31,28 @@ map BRIT10M7 "BRIT10 MAP07" {
 	sky1 = "B0_SKY1", 0.0
 }
 
+map BRIT11M1 "BRIT11 MAP01" {
+	exitpic = "INTER_BR"
+	intermusic = "D_BRINT"
+	levelnum = 3
+	music = "D_BR01"
+	next = "START"
+	sky1 = "BR_SKY1", 0.0
+}
+
+map BRIT11M5 "BRIT11 MAP05" {
+	exitpic = "INTER_BR"
+	intermusic = "D_BRINT"
+	levelnum = 4
+	music = "D_BR05"
+	next = "START"
+	sky1 = "BR_SKY1", 0.0
+}
+
 map CHILL3M7 "CHILL3 MAP07" {
 	exitpic = "INTER_C3"
 	intermusic = "D_C3INT"
-	levelnum = 2
+	levelnum = 5
 	music = "D_C307"
 	next = "START"
 	sky1 = "C3_SKY1", 0.0
@@ -43,7 +61,7 @@ map CHILL3M7 "CHILL3 MAP07" {
 map CLASSM1 "CLASS219 MAP01" {
 	exitpic = "INTERPIC"
 	intermusic = "D_CLINT"
-	levelnum = 3
+	levelnum = 6
 	music = "D_CL01"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -52,7 +70,7 @@ map CLASSM1 "CLASS219 MAP01" {
 map MAP01 "DOOM2 MAP01" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 5
+	levelnum = 7
 	music = "D_RUNNIN"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -61,7 +79,7 @@ map MAP01 "DOOM2 MAP01" {
 map DWGO5M1 "DWANGO5 MAP01" {
 	exitpic = "INTER_D5"
 	intermusic = "D_D5INT"
-	levelnum = 6
+	levelnum = 8
 	music = "D_D501"
 	next = "START"
 	sky1 = "D5_SKY1", 0.0
@@ -70,7 +88,7 @@ map DWGO5M1 "DWANGO5 MAP01" {
 map DWGO5M7 "DWANGO5 MAP07" {
 	exitpic = "INTER_D5"
 	intermusic = "D_D5INT"
-	levelnum = 7
+	levelnum = 9
 	music = "D_D507"
 	next = "START"
 	sky1 = "D5_SKY1", 0.0
@@ -79,7 +97,7 @@ map DWGO5M7 "DWANGO5 MAP07" {
 map DWEL2M11 "DWELLER2 MAP11" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 9
+	levelnum = 10
 	music = "D_STLKS2"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -88,7 +106,7 @@ map DWEL2M11 "DWELLER2 MAP11" {
 map EON1FM5 "EONDM1F MAP05" {
 	exitpic = "INTER_EN"
 	intermusic = "D_ENINT"
-	levelnum = 10
+	levelnum = 11
 	music = "D_EN05"
 	next = "START"
 	sky1 = "EN_SKY2", 0.0
@@ -97,7 +115,7 @@ map EON1FM5 "EONDM1F MAP05" {
 map EXODUS11 "EXODUS1ON1" {
 	exitpic = "INTER_E1"
 	intermusic = "D_DM2INT"
-	levelnum = 13
+	levelnum = 12
 	music = "D_E101"
 	next = "START"
 	sky1 = "E1_SKY1", 0.0
@@ -106,7 +124,7 @@ map EXODUS11 "EXODUS1ON1" {
 map EXPOSED "EXPOSED" {
 	exitpic = "INTER_EX"
 	intermusic = "D_EXINT"
-	levelnum = 14
+	levelnum = 13
 	music = "D_EX01"
 	next = "START"
 	sky1 = "EX_SKY1", 0.0
