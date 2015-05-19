@@ -130,10 +130,10 @@ map EXPOSED "EXPOSED" {
 	sky1 = "EX_SKY1", 0.0
 }
 
-map EYEDEA "EYEDEA" {
+map EYEDEA_ "EYEDEA_" {
 	exitpic = "INTER_EY"
 	intermusic = "D_EYINT"
-	levelnum = 15
+	levelnum = 14
 	music = "D_EY01"
 	next = "START"
 	sky1 = "EY_SKY1", 0.0
