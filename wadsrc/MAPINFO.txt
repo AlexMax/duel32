@@ -247,6 +247,15 @@ map SSL2 "SSL2" {
 	sky1 = "SKY1", 0.0
 }
 
+map SKRMSHM1 "SKIRMISH MAP01" {
+	exitpic = "INTER_SK"
+	intermusic = "D_SKINT"
+	levelnum = 30
+	music = "D_SK01"
+	next = "START"
+	sky1 = "SK_BIGRD", 0.0
+}
+
 map SKRMSHM2 "SKIRMISH MAP02" {
 	exitpic = "INTER_SK"
 	intermusic = "D_SKINT"
