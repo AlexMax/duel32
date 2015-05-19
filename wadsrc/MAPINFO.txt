@@ -103,7 +103,7 @@ map DWEL2M11 "DWELLER2 MAP11" {
 	sky1 = "SKY1", 0.0
 }
 
-map EON1FM5 "EONDM1F MAP05" {
+map EONDM1M5 "EONDM1 MAP05" {
 	exitpic = "INTER_EN"
 	intermusic = "D_ENINT"
 	levelnum = 11
