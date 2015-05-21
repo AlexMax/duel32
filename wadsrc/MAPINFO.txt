@@ -142,7 +142,7 @@ map EYEDEA_ "EYEDEA_" {
 map FOXTROT "FOXTROT" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 16
+	levelnum = 15
 	music = "D_FX01"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -151,7 +151,7 @@ map FOXTROT "FOXTROT" {
 map FULOSER "FULOSER" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 17
+	levelnum = 16
 	music = "D_RUNNIN"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -160,7 +160,7 @@ map FULOSER "FULOSER" {
 map GWARM16 "GREENWAR MAP16" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 18
+	levelnum = 17
 	music = "D_DEAD2"
 	next = "START"
 	sky1 = "SKY2", 0.0
@@ -169,7 +169,7 @@ map GWARM16 "GREENWAR MAP16" {
 map GWARM20 "GREENWAR MAP20" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 19
+	levelnum = 18
 	music = "D_MESSAG"
 	next = "START"
 	sky1 = "SKY2", 0.0
@@ -178,7 +178,7 @@ map GWARM20 "GREENWAR MAP20" {
 map GWARM24 "GREENWAR MAP24" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 20
+	levelnum = 19
 	music = "D_THEDA3"
 	next = "START"
 	sky1 = "SKY3", 0.0
@@ -202,10 +202,19 @@ map JUDAS23_ "JUDAS23_" {
 	sky1 = "SKY3", 0.0
 }
 
+map KIDUELM1 "KID_DUEL MAP01" {
+	exitpic = "INTER_KD"
+	intermusic = "D_KDINT"
+	levelnum = 22
+	music = "D_KD01"
+	next = "START"
+	sky1 = "KD_FUKNU", 0.0
+}
+
 map KING1 "KING1" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 22
+	levelnum = 23
 	music = "D_K101"
 	next = "START"
 	sky1 = "K1_SKY1", 0.0
