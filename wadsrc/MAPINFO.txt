@@ -220,10 +220,19 @@ map KING1 "KING1" {
 	sky1 = "K1_SKY1", 0.0
 }
 
+map LAZ1JM1 "LAZARUS1J MAP01" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 24
+	music = "D_LZ01"
+	next = "START"
+	sky1 = "LZ_SKY1", 0.0
+}
+
 map LAZ1JM4 "LAZARUS1J MAP04" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 23
+	levelnum = 25
 	music = "D_LZ04"
 	next = "START"
 	sky1 = "LZ_SKY2", 0.0
@@ -232,7 +241,7 @@ map LAZ1JM4 "LAZARUS1J MAP04" {
 map MOO2D "MOO2D" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 25
+	levelnum = 26
 	music = "D_RUNNIN"
 	next = "START"
 	sky1 = "SKY1", 0.0
