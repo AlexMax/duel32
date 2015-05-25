@@ -319,6 +319,24 @@ map STYX01M1 "STYXDM01 MAP01" {
 	sky1 = "SX_SKY1", 0.0
 }
 
+map UPTDM08 "UPTIGHTDM UPTDM08" {
+	exitpic = "INTER_UP"
+	intermusic = "D_UPINT"
+	levelnum = 36
+	music = "D_UP08"
+	next = "START"
+	sky1 = "UP_SKY6", 0.0
+}
+
+map UPTDM31 "UPTIGHTDM UPTDM31" {
+	exitpic = "INTER_UP"
+	intermusic = "D_UPINT"
+	levelnum = 37
+	music = "D_UP31"
+	next = "START"
+	sky1 = "UP_SKY5", 0.0
+}
+
 map UROBUROS "UROBUROS" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
