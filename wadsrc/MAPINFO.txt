@@ -6,7 +6,7 @@ episode START {
 map START "WELCOME TO DUEL32" {
 	cluster = 99
 	islobby
-	levelnum = 0
+	levelnum = 255
 	music = "D_M32"
 	next = "START"
 	nointermission
