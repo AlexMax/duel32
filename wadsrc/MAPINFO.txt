@@ -382,11 +382,11 @@ map SHOOT "SHOOT" {
 	sky1 = "SKY1", 0.0
 }
 
-map BFGD5M1 "BFGD5M1" {
+map BFGSHOOT "BFGSHOOT" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
 	levelnum = 42
-	music = "D_BD01"
+	music = "D_RUNNIN"
 	next = "START"
-	sky1 = "BD_SKY1", 0.0
+	sky1 = "SKY1", 0.0
 }
