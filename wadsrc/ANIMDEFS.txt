@@ -10,6 +10,8 @@ switch doom 1 EX1DIRT on pic EX2DIRT tics 0
 
 texture DPORTAL1 range DPORTAL9 tics 4
 
+texture U3KAGE1 range U3KAGE3 tics 8
+
 texture 32FGRAY1
 pic 32FGRAY1 tics 8
 pic 32FGRAY2 tics 8

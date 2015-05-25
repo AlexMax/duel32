@@ -319,6 +319,15 @@ map STYX01M1 "STYXDM01 MAP01" {
 	sky1 = "SX_SKY1", 0.0
 }
 
+map UDM3M3 "UDM3 MAP03" {
+	exitpic = "INTER_U3"
+	intermusic = "D_U3INT"
+	levelnum = 35
+	music = "D_U303"
+	next = "START"
+	sky1 = "U3_SKY1", 0.0
+}
+
 map UPTDM08 "UPTIGHTDM UPTDM08" {
 	exitpic = "INTER_UP"
 	intermusic = "D_UPINT"
@@ -353,6 +362,15 @@ map XENOS9M4 "XENOSX9 MAP04" {
 	music = "D_BETWEE"
 	next = "START"
 	sky1 = "XE_SKY1", 0.0
+}
+
+map XFIRE5 "XFIRE5" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 40
+	music = "D_COUNTD"
+	next = "START"
+	sky1 = "SKY1", 0.0
 }
 
 map SHOOT "SHOOT" {
