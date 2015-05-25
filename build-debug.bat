@@ -1,6 +1,6 @@
 @ECHO OFF
 
-SET RELEASE=f
+SET RELEASE=a
 
 CD %~dp0
 MKDIR build
@@ -12,5 +12,5 @@ IF errorlevel 1 (
 	PAUSE
 	exit /b 1
 )
-..\bin\zip.exe -r ..\duel32%RELEASE%-debug.pk3 .
+..\bin\zip.exe -r ..\duel40%RELEASE%-debug.pk3 .
 CD ..

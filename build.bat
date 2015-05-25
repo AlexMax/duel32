@@ -1,6 +1,6 @@
 @ECHO OFF
 
-SET RELEASE=f
+SET RELEASE=a
 
 CD %~dp0
 MKDIR build
@@ -13,5 +13,5 @@ IF errorlevel 1 (
 	exit /b 1
 )
 FOR /R %%f IN (*.png) DO ..\bin\pngout.exe "%%f"
-..\bin\kzip.exe /r ..\duel32%RELEASE%.pk3 *
+..\bin\kzip.exe /r ..\duel40%RELEASE%.pk3 *
 CD ..

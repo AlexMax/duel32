@@ -1,9 +1,9 @@
 clearepisodes
 episode START {
-	name = "DUEL32"
+	name = "DUEL40"
 }
 
-map START "WELCOME TO DUEL32" {
+map START "WELCOME TO DUEL40" {
 	cluster = 99
 	islobby
 	levelnum = 255
