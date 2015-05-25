@@ -250,7 +250,7 @@ map MOO2D "MOO2D" {
 map OBLIVX "OBLIVX" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 26
+	levelnum = 27
 	music = "D_OX01"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -259,7 +259,7 @@ map OBLIVX "OBLIVX" {
 map POBLA8 "POBLA8" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 27
+	levelnum = 28
 	music = "D_RUNNIN"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -268,7 +268,7 @@ map POBLA8 "POBLA8" {
 map SIPOOMA "SIPOOMA" {
 	exitpic = "INTER_SI"
 	intermusic = "D_SIINT"
-	levelnum = 28
+	levelnum = 29
 	music = "D_SI01"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -277,7 +277,7 @@ map SIPOOMA "SIPOOMA" {
 map SSL2 "SSL2" {
 	exitpic = "INTERPIC"
 	intermusic = "D_SLINT"
-	levelnum = 29
+	levelnum = 30
 	music = "D_SL01"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -286,7 +286,7 @@ map SSL2 "SSL2" {
 map SKRMSHM1 "SKIRMISH MAP01" {
 	exitpic = "INTER_SK"
 	intermusic = "D_SKINT"
-	levelnum = 30
+	levelnum = 31
 	music = "D_SK01"
 	next = "START"
 	sky1 = "SK_BIGRD", 0.0
@@ -295,16 +295,25 @@ map SKRMSHM1 "SKIRMISH MAP01" {
 map SKRMSHM2 "SKIRMISH MAP02" {
 	exitpic = "INTER_SK"
 	intermusic = "D_SKINT"
-	levelnum = 30
+	levelnum = 32
 	music = "D_SK02"
 	next = "START"
 	sky1 = "SK_PRIPS", 0.0
 }
 
+map STYX8 "STYX8" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 33
+	music = "D_S801"
+	next = "START"
+	sky1 = "S8_SKY1", 0.0
+}
+
 map STYX01M1 "STYXDM01 MAP01" {
 	exitpic = "INTER_SX"
 	intermusic = "D_DM2INT"
-	levelnum = 30
+	levelnum = 34
 	music = "D_RUNNIN"
 	next = "START"
 	sky1 = "SX_SKY1", 0.0
@@ -313,7 +322,7 @@ map STYX01M1 "STYXDM01 MAP01" {
 map UROBUROS "UROBUROS" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 31
+	levelnum = 38
 	music = "D_UR01"
 	next = "START"
 	sky1 = "UR_SKY1", 0.0
@@ -322,7 +331,7 @@ map UROBUROS "UROBUROS" {
 map XENOS9M4 "XENOSX9 MAP04" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 32
+	levelnum = 39
 	music = "D_BETWEE"
 	next = "START"
 	sky1 = "XE_SKY1", 0.0
@@ -331,7 +340,7 @@ map XENOS9M4 "XENOSX9 MAP04" {
 map SHOOT "SHOOT" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 33
+	levelnum = 41
 	music = "D_RUNNIN"
 	next = "START"
 	sky1 = "SKY1", 0.0
@@ -340,7 +349,7 @@ map SHOOT "SHOOT" {
 map BFGD5M1 "BFGD5M1" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
-	levelnum = 34
+	levelnum = 42
 	music = "D_BD01"
 	next = "START"
 	sky1 = "BD_SKY1", 0.0
