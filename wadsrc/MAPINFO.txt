@@ -346,6 +346,16 @@ map XFIRE5 "XFIRE5" {
 	sky1 = "SKY1", 0.0
 }
 
+// move me
+map ROSDUEL "ROSDUEL" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 80
+	music = "D_RD01"
+	next = "START"
+	sky1 = "RDSKY10B", 0.0
+}
+
 map SHOOT "SHOOT" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
