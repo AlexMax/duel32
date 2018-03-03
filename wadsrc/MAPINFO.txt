@@ -265,7 +265,7 @@ map SSL2 "SSL2" {
 	sky1 = "SKY1", 0.0
 }
 
-map SKRMSHM2 "SKIRMISH MAP02" {
+map SKRMIM2 "SKIRMISH MAP02" {
 	exitpic = "INTER_SK"
 	intermusic = "D_SKINT"
 	levelnum = 32
@@ -354,6 +354,15 @@ map ROSDUEL "ROSDUEL" {
 	music = "D_RD01"
 	next = "START"
 	sky1 = "RDSKY10B", 0.0
+}
+
+map SKRMIM18 "SKIRMISH MAP18" {
+	exitpic = "INTER_SK"
+	intermusic = "D_SKINT"
+	levelnum = 81
+	music = "D_SK18"
+	next = "START"
+	sky1 = "SKSTSKY7", 0.0
 }
 
 map SHOOT "SHOOT" {
