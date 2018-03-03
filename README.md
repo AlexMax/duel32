@@ -1,4 +1,4 @@
-Duel32
+Duel40
 ======
 A duel map compilation for Zandronum.
 
