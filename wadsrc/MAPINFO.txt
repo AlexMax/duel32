@@ -49,6 +49,15 @@ map BRIT11M5 "BRIT11 MAP05" {
 	sky1 = "BR_SKY1", 0.0
 }
 
+map CGI1M8 "CGI1 MAP08" {
+	exitpic = "INTER_CG"
+	intermusic = "D_CGINT"
+	levelnum = 5
+	music = "D_CG08"
+	next = "START"
+	sky1 = "SKY3", 0.0
+}
+
 map CLASSM1 "CLASS219 MAP01" {
 	exitpic = "INTERPIC"
 	intermusic = "D_CLINT"
