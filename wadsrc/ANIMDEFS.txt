@@ -1,17 +1,21 @@
-switch doom 3 ADEL_Z50 on pic ADEL_Z51 tics 0
-
+// Exodus1on1
 switch doom 3 BDEL_Z50 on pic BDEL_Z51 tics 0
 
+// Brit11
 switch doom 1 BR1BROWN on pic BR2BROWN tics 0
 switch doom 1 BR1DIRT on pic BR2DIRT tics 0
 switch doom 3 BR1MET2 on pic BR2MET2 tics 0
 
+// Exposed
 switch doom 1 EX1DIRT on pic EX2DIRT tics 0
 
+// Lazarus1
 texture DPORTAL1 range DPORTAL9 tics 4
 
+// UDM3
 texture U3KAGE1 range U3KAGE3 tics 8
 
+// START
 texture 32FGRAY1
 pic 32FGRAY1 tics 8
 pic 32FGRAY2 tics 8
