@@ -301,15 +301,6 @@ map UDM3M3 "UDM3 MAP03" {
 	sky1 = "U3_SKY1", 0.0
 }
 
-map UPTDM31 "UPTIGHTDM UPTDM31" {
-	exitpic = "INTER_UP"
-	intermusic = "D_UPINT"
-	levelnum = 37
-	music = "D_UP31"
-	next = "START"
-	sky1 = "UP_SKY5", 0.0
-}
-
 map UROBUROS "UROBUROS" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
