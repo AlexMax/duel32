@@ -15,6 +15,10 @@ texture DPORTAL1 range DPORTAL9 tics 4
 // UDM3
 texture U3KAGE1 range U3KAGE3 tics 8
 
+// URITEDM
+texture URDPORT1 range URDPORT9 tics 8
+warp texture URLWAWRP
+
 // START
 texture 32FGRAY1
 pic 32FGRAY1 tics 8

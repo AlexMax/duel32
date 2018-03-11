@@ -305,9 +305,9 @@ map UROBUROS "UROBUROS" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
 	levelnum = 38
-	music = "D_UR01"
+	music = "D_UB01"
 	next = "START"
-	sky1 = "UR_SKY1", 0.0
+	sky1 = "UB_SKY1", 0.0
 }
 
 map XENOS9M4 "XENOSX9 MAP04" {
@@ -345,6 +345,24 @@ map SKRMSH18 "SKIRMISH MAP18" {
 	music = "D_SK18"
 	next = "START"
 	sky1 = "SKSTSKY7", 0.0
+}
+
+map URITEM6 "URITEDM MAP06" {
+	exitpic = "INTERPIC"
+	intermusic = "D_URINT"
+	levelnum = 82
+	music = "D_UR06"
+	next = "START"
+	sky1 = "URSTRY2L", 0.0
+}
+
+map URITEM12 "URITEDM MAP12" {
+	exitpic = "INTERPIC"
+	intermusic = "D_URINT"
+	levelnum = 83
+	music = "D_UR12"
+	next = "START"
+	sky1 = "UR_SKY6", 0.0
 }
 
 map SHOOT "SHOOT" {
