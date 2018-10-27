@@ -9,9 +9,6 @@ switch doom 3 BR1MET2 on pic BR2MET2 tics 0
 // Exposed
 switch doom 1 EX1DIRT on pic EX2DIRT tics 0
 
-// Lazarus1
-texture DPORTAL1 range DPORTAL9 tics 4
-
 // UDM3
 texture U3KAGE1 range U3KAGE3 tics 8
 
