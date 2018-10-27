@@ -383,6 +383,15 @@ map PYRHIC10 "PYRRHIC_ MAP10" {
 	sky1 = "PY_SKY1", 0.0
 }
 
+map BSPEPI "BSPEPI" {
+	exitpic = "INTERPIC"
+	intermusic = "D_DM2INT"
+	levelnum = 86
+	music = "D_RUNNIN"
+	next = "START"
+	sky1 = "BS_SKY1", 0.0
+}
+
 map SHOOT "SHOOT" {
 	exitpic = "INTERPIC"
 	intermusic = "D_DM2INT"
