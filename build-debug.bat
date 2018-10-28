@@ -1,6 +1,6 @@
 @ECHO OFF
 
-SET RELEASE=a
+SET RELEASE=b
 
 CD %~dp0
 MKDIR build
