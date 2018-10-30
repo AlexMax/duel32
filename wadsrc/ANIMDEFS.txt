@@ -17,6 +17,5 @@ texture URDPORT1 range URDPORT9 tics 8
 warp texture URLWAWRP
 
 // START
-texture 32FGRAY1
-pic 32FGRAY1 tics 8
-pic 32FGRAY2 tics 8
+warp texture 32PORTBL
+warp texture 32PORTGY
